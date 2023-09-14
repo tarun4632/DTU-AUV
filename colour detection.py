@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 
-def onchange(a):
+def onchange(a): #creating a function just because we want to put it in the trackbars
     pass
 
-path = r"C:\Users\hp\Downloads\images\images\1.png"
+path = r"Resources/color-shapes.png"
 
 cv2.namedWindow("trackbars")
 cv2.resizeWindow("trackbars", 640, 320)
